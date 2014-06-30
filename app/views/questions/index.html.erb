@@ -1,8 +1,9 @@
-<div data-container="question">
-</div>
+<h1>Interview Questions</h1>
 
-<a href="#" class="button" data-behavior="get">Ask me another</a>  <%= link_to 'Stop interview', root_path, class: 'button' %>
+<ol>
+  <% @questions.each do |question| %>
+  <li><%= question.content %></li>
+  <% end %>
+</ol>
 
-<script>
-  $(document).ready(QuestionGenerator.initialize(<%= raw @questions %>));
-</script>
+<%= link_to 'Back', root_path, class: 'button' %>
