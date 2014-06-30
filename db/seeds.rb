@@ -1,0 +1,8 @@
+Question.create!(content: "Tell me about yourself.")
+Question.create!(content: "What is one of your weaknesses?")
+Question.create!(content: "What are your strengths?")
+Question.create!(content: "Where would you like to be in 5 years?")
+Question.create!(content: "What is your ideal company?")
+Question.create!(content: "Can you describe a time when your work was criticized?")
+Question.create!(content: "Tell me about a time when you had to give someone difficult feedback. How did you handle it?")
+Question.create!(content: "What is your greatest failure, and what did you learn from it? ")
