@@ -1,7 +1,7 @@
 <div data-container="question">
 </div>
 
-<a href="#" class="button" data-behavior="get">Ask me another</a>
+<a href="#" class="button" data-behavior="get">Ask me another</a>  <%= link_to 'Stop interview', root_path, class: 'button' %>
 
 <script>
   $(document).ready(QuestionGenerator.initialize(<%= raw @questions %>));
